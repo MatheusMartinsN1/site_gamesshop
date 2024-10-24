@@ -1,0 +1,185 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee&display=swap');
+
+@font-face {
+    font-family: 'fontgame';
+    src: url('fontes/Gameplay.ttf') format('truetype');
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body h2{
+    font-family: "Bungee", sans-serif;
+    font-weight: normal;
+}
+
+body h3{
+    font-family: "Bungee", sans-serif;
+    color: rgba(5, 5, 138, 0.699);
+    font-weight: normal;
+}
+
+body p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgba(5, 5, 138, 0.699);
+    padding-top: 20px;
+}
+
+header > h1 {
+    color: white;
+    text-align: center;
+    padding: 5px 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 200px;
+    margin: auto;
+    font-family: 'fontgame', sans-serif;
+    font-weight: normal;
+}   
+
+header h1:hover {
+    background-color: rgba(5, 5, 105, 0.493);
+    transition-duration: 0.5s;
+}
+
+nav {
+    background-color: rgba(5, 5, 138, 0.699);
+    padding-top: 20px;
+    padding-bottom: 8px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+nav h2 {
+    display: inline;
+    padding: 5px 10px;
+    font-size: 20px;
+}
+
+nav h2 a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav h2:hover {
+    background-color: rgba(5, 5, 105, 0.493);
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0px auto;
+    text-indent: 10px;
+}
+
+section .container,
+.container li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container li{
+    display: inline;
+    
+}
+
+.logoconsoles img {
+    height: 25px;
+}
+
+.fachada{
+    background-color: rgba(5, 5, 138, 0.699);
+    color: white;
+    padding: 0px 0px 0px 25px;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+
+.fachada h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+
+.imgprincipal {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.redes-sociais img{
+    height: 25px;
+    margin-left: 100px;
+    margin-right: -90px;
+    margin-top: 10px;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    margin: 10px 100px;
+    padding: 5px;
+    width: 300px;
+}
+
+form textarea {
+    resize: none;
+    height: 150px;
+}
+
+form button {
+    width: 310px;
+    height: 50px;
+    font-family: "Bungee", sans-serif;
+    font-weight: normal;
+    background-color: rgba(5, 5, 138, 0.699);
+    color: white;
+    border: none;
+}
+
+form button:hover {
+    background-color: rgba(16, 16, 145, 0.904);
+}
+
+.titulo-contato {
+    background-image: linear-gradient(to right, rgba(5, 5, 138, 0.699), transparent);
+    color: white;
+    padding: 5px 0px 5px 15px;
+    margin: 30px 0px 20px 20px;
+    text-decoration: underline;
+}
+
+.contato h3 {
+    margin: 30px 0px 20px 100px;
+}
+
+.contato p {
+    margin-left: 100px;
+}
+
+footer p {
+    background-color: rgba(5, 5, 138, 0.699);
+    color: white;
+    padding: 15px;
+    padding-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
